@@ -78,4 +78,4 @@ FROM --platform=linux/arm64 ubuntu:jammy AS final-image
     USER scripter
     # Use PowerShell as the default shell
     # Use array to avoid Docker prepending /bin/sh -c
-    CMD [ "pwsh" ]
+    CMD [ "bash" ]
